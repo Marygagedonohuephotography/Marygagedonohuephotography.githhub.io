@@ -1,0 +1,105 @@
+#borderimg {
+border: 10px solid transparent;
+padding: 15px;
+border-image: url(color.jpg) 30 round;
+} 	 
+ 
+ 
+body {
+background-image: url("../images/background.jpg");}
+ 
+.headerlink { background-color:rgba(0,0,255,0.4); }
+
+
+.mynav{
+font-size: 230%;	
+display: flex;
+text-decoration: none;
+text-align:center;
+font-family:monospace;
+gap: 35px;
+}
+ 
+.mynav > div { 
+flex: 10;
+color: black;
+}
+
+ .box1 {
+ height: 50px;
+ width: 2px;
+ border-radius: 2%;
+ display: inline-block; 	
+ }
+
+ 
+ .box2 {
+ height: 50px;
+ width: 2px;
+ border-radius: 2%;
+ display: inline-block; 	
+ }
+
+
+ .box3 {
+height: 50px;
+width: 2px;
+border-radius: 2%;
+display: inline-block;	
+ }
+
+
+.mynavlink {
+color: black;
+}
+
+.centered {
+border-style: solid;
+border-color: black;
+border-width: 8px 8px 8px;
+}
+
+.head1 {
+text-align:center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header{
+text-align:center;
+font-family: serif;
+font-size: 20px;
+
+}
+
+.instagramlink {
+
+text-align:center;
+font-size: 30px;
+
+}
+
+.contact {
+text-align:center;
+font-size: 20px;
+}
+
+.email {
+text-align:center;
+font-size: 20px;
+}
+
+
+

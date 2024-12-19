@@ -1,0 +1,168 @@
+ 
+ .photo1{
+ width: 100%; }
+ 
+ 
+ .photo2{
+ width: 100%;}
+
+ 
+ .photo3{
+ width: 100%; }
+
+ .photo4{
+ width: 100%; }
+
+ .photo5{
+ width: 100%; }
+
+ 
+ .photo6{
+ width: 100%; }
+ 
+ .photo7{
+ width: 100%; }
+
+.photo8{
+ width: 100%; }
+
+.photo9{
+ width: 100%; }
+ 
+ .photo10{
+ width: 100%; }
+ 
+ .photo11{
+ width: 100%; }
+
+.photo12{
+ width: 100%; }
+
+
+  
+.headerlink { background-color:rgba(0,0,255,0.4); }
+
+
+  
+  body {
+background-image: url("../images/background.jpg");}
+ 
+  
+ .gallery {
+
+  background-color:white;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+  
+}
+
+div.gallery img {
+  padding: 10px;
+  width: 25%;
+}
+  
+ 
+ 
+ 
+ 
+.mynav{
+font-size: 230%;	
+display: flex;
+text-decoration: none;
+text-align:center;
+font-family:monospace;
+gap: 35px;
+}
+ 
+.mynav > div { 
+flex: 10;
+color: black;
+}
+
+ 
+ 
+ .head1{
+ text-align:center;
+ font-family: monospace;
+ font-size: 50px;
+ text-decoration: underline;
+ 
+ }
+
+
+
+
+#borderimg {
+border: 10px solid transparent;
+padding: 15px;
+border-image: url(color.jpg) 30 round;
+} 	 
+ 
+ 
+ 
+ .box1 {
+ height: 50px;
+ width: 2px;
+ border-radius: 2%;
+ display: inline-block; 	
+ }
+
+ 
+ .box2 {
+ height: 50px;
+ width: 2px;
+ border-radius: 2%;
+ display: inline-block; 	
+ }
+
+
+ .box3 {
+ height: 50px;
+ width: 2px;
+ border-radius: 2%;
+ display: inline-block;	
+ 
+ }
+
+.mynavlink {
+color: black;
+}
+ 
+ .centered {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 10px solid;
+  }
+  
+ .container
+ {margin: 30px;   
+ } 
+  
+  .locationheader { 
+    text-align:center;
+    font-family: monospace;
+    font-size: 30px;
+    margin: 80px
+  }
+  
+  
+  .aboutme{
+    text-align:center;
+ 	font-family: serif;
+ 	font-size: 20px;
+ 	margin: 80px
+  }
+  
+  
+
+
+
+
+
+
+
+
+

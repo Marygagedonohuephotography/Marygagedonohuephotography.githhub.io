@@ -1,0 +1,110 @@
+
+#borderimg {
+border: 10px solid transparent;
+padding: 15px;
+border-image: url(color.jpg) 30 round;
+} 	 
+ 
+ 
+body {
+background-image: url("../images/background.jpg");}
+ 
+.headerlink { background-color:rgba(0,0,255,0.4); }
+
+
+.mynav{
+font-size: 230%;	
+display: flex;
+text-decoration: none;
+text-align:center;
+font-family:monospace;
+gap: 35px;
+}
+ 
+.mynav > div { 
+flex: 10;
+color: black;
+}
+
+ .box1 {
+ height: 50px;
+ width: 2px;
+ border-radius: 2%;
+ display: inline-block; 	
+ }
+
+ 
+ .box2 {
+ height: 50px;
+ width: 2px;
+ border-radius: 2%;
+ display: inline-block; 	
+ }
+
+
+ .box3 {
+height: 50px;
+width: 2px;
+border-radius: 2%;
+display: inline-block;	
+ }
+
+
+.mynavlink {
+color: black;
+}
+
+.centered {
+border-style: solid;
+border-color: black;
+border-width: 8px 8px 8px;
+}
+
+
+.head1 {
+text-align:center;
+}
+
+
+.bookinghead {
+text-align:center;
+font-family:monospace;
+text-decoration: underline;
+font-size: 25px;
+}
+
+.serviceselection{
+text-align:center;
+font-size: 20px;
+}
+
+.bookingtype {
+text-align:center;
+font-size: 20px;
+}
+
+
+.location{
+text-align:center;
+font-size: 30px;
+
+}
+
+
+
+.location2 {
+text-align:center;
+font-size: 30px;
+}
+
+
+@media only screen and (max-width: 900px) {
+   .element {
+    font-size: 900px;
+    padding: 1px;
+  }
+}
+
+
+
+
